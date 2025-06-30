@@ -85,3 +85,7 @@ ReconBlitz is my latest experiment in recon automation: fast, secure, and built 
 8. [https://toppodcast.com/podcast\_feeds/security-weekly-podcast-network-audio/](https://toppodcast.com/podcast_feeds/security-weekly-podcast-network-audio/)
     
 9. [https://github.com/gaahrdner/starred/blob/master/README.md](https://github.com/gaahrdner/starred/blob/master/README.md)
+    
+
+Support my work:  
+[https://ko-fi.com/brigidvoid](https://ko-fi.com/brigidvoid)
