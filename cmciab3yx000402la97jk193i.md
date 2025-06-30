@@ -89,3 +89,7 @@ Share your own experiences or tips for using AI tools in cybersecurity learning.
 7. [https://forum.hackthebox.com/t/starting-point-walkthrough-repo/273729](https://forum.hackthebox.com/t/starting-point-walkthrough-repo/273729)
     
 8. [https://www.reddit.com/r/hackthebox/comments/18ywzpr/starting\_on\_htb/](https://www.reddit.com/r/hackthebox/comments/18ywzpr/starting_on_htb/)
+    
+
+Support my work:  
+[https://ko-fi.com/brigidvoid](https://ko-fi.com/brigidvoid)
