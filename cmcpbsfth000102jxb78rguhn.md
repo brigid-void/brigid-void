@@ -3,6 +3,7 @@ title: "“Oops, All Vulnerabilities!” Hackthebox Starting Point Oopsie 2025 w
 datePublished: Fri Jul 04 2025 21:27:35 GMT+0000 (Coordinated Universal Time)
 cuid: cmcpbsfth000102jxb78rguhn
 slug: oops-all-vulnerabilities-hackthebox-starting-point-oopsie-2025-writeup
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/em5w9_xj3uU/upload/813bfe980b8817f58828a6df31a9f0b6.jpeg
 tags: hacking, bug-bounty, penetration-testing, web-security, hackthebox, reverse-shell, ctf-writeup, privilege-escalation, oopsie, vulnerability-disclosure, technopessimism, access-control-failure
 
 ---
