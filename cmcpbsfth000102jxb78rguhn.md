@@ -16,7 +16,7 @@ Let’s set the scene: it’s a Friday in 2025, the world’s still spinning, an
 First, the ritual sacrifice to the gods of enumeration:
 
 ```plaintext
-bashnmap -sV -p- 10.10.10.28
+bash $ nmap -sV -p- 10.10.10.28
 ```
 
 Predictably, ports **22 (SSH)** and **80 (HTTP)** are open[1](https://github.com/alch-1/htb-oopsie-writeup)[4](https://bobmckay.com/i-t-support-networking/ethical-hacking/hack-the-box-walkthrough-oopsie/)[8](https://shapmanasick.gitbook.io/starting-point-htb/oopsie-walkthrough). The web server is running Apache, which is about as surprising as finding out your IoT toaster is mining crypto for someone in Belarus.
