@@ -1,14 +1,19 @@
-Welcome to the digital wreckage where I poke at the seams of the internet until it either breaks or reveals its secrets. A freelance hacker and journalist armed with Rust, bug bounties, and a healthy dose of technopessimism - but don’t mistake that for defeat. I believe in the optimism of the will: the stubborn hope that maybe, just maybe, the internet can be saved by its own tools before it burns itself down.
+## [brigid-void]
 
-I spend my days hunting vulnerabilities in WordPress sites, wielding tools like gobuster, wpscan, and Metasploit like a digital archaeologist digging through layers of corporate negligence and sloppy code. When I’m not hacking, I’m writing - bug bounty writeups, vulnerability disclosures, and the occasional rant about how technological acceleration under capitalism is both our greatest weapon and our most glaring flaw.
+I navigate the messy intersection of [security], [automation], and [crypto payments].  
+Semi-anonymous [pentester] & freelance dev fluent in [CLI] tooling, scripting up bots and recon workflows for [telegram], [discord], and the open web.  
+If there’s a vulnerability to unearth or a tedious process to automate, odds are I’m writing a [rust] script, bot, or payload for it.
 
-If you’re here for Rust-powered subdomain enumeration tools or want to see how I port projects like Sublist3r and SubRuster, you’re in the right place. Pull up a chair, clone a repo, and maybe together we can watch the internet implode - or better yet, build something that outlives the chaos.
+- Recent obsessions: subdomain enumeration, API hacking, and crypto payment automation (no KYC, ever).
+- Experienced with self-hosted infrastructure, [systemd] service bots, and using [AI]/[LLM]-assisted enumeration on the daily.
+- Writeups, disclosures, OPSEC-aware code, and [rust]/[python]-first exploits are welcome here.
+- Sometimes build, often break, always document.
 
----
+> I believe security work is about *never taking the digital surface at face value*—and that even the apocalypse has a command prompt.
 
-*“The internet needs to be destroyed - ideally by its own tools.”*  
-– ghosthermes, somewhere between cynicism and hope
+**Open to:**
+- [bug bounty] collabs
+- lightweight [bot] contracts (Telegram, Discord, web)
+- crypto payment gigs
 
----
-
-Feel free to reach out or contribute. Just don’t expect me to sugarcoat the apocalypse.
+[Reach out or fork a [workflow] just don’t expect me to romanticize the status quo.]
