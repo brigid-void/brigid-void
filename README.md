@@ -1,4 +1,4 @@
-# Raven Fritz
+# Brigid Void
 **Penetration Tester | Security Researcher**
 Remote, USA | ravenfritz98@gmail.com | 541-228-1780 | https://github.com/brigid-void | https://bugcrowd.com/h/Liz_Zelda
 
