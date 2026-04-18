@@ -4,45 +4,47 @@
 
 ---
 
-### I find bugs. 
-I’m an offensive security researcher. I stick to black-box web and API testing. Scanners are blind to logic, so I build my own research loops. I use Arch Linux and machine reasoning to map attack surfaces and find the flaws they miss. It works.
+I find bugs.
 
-### The Workflow
-I run a dual-screen Arch setup. Terminal on the left. Browser on the right. I use DeepSeek and Gemini Pro to chew through code and API data, but the final exploit is always manual. I verify every lead in Burp Suite or Browser Dev Tools if applicable. No exceptions. No automated junk reports.
+Not always the kind that pay out. Triage is what it is. But I've sent over 15 reports to programs on HackenProof, Bugcrowd, and Immunefi. Most got read. Some got fixed. I got good at spotting the things scanners ignore.
 
-*   **Recon:** I map the surface using CLI tools.
-*   **Analysis:** I use machine logic to spot patterns in API schemas.
-*   **Verification:** I hand-write the Python or Bash scripts to prove the bug. 
+I stick to black‑box web and API testing. Arch Linux. Terminal on the left, browser on the right. I throw API schemas and JS chunks at DeepSeek or Gemini to surface patterns, but I verify everything by hand. Burp. DevTools. Python one‑liners. No automated junk.
 
 ---
 
-### Research Hits
-I've sent over 15 reports to programs on HackenProof, Bugcrowd, and Immunefi. 
+### Things I've Found
 
-| Target Type | What I Found | Results |
-| :--- | :--- | :--- |
-| **Bank** | Auth bypass on production gateway. | **Confirmed.** Bypassed the gateway using header injection to see internal logs. |
-| **SaaS** | SAP Open Redirect (CVE-2020-26836). | **Duplicate.** Found an unpatched CVE on a live site. |
-| **Auto** | Logic leak via error codes. | **Informational.** Error messages revealed valid vs invalid internal states. |
-| **Social Media** | Metadata leak. | **Informational** Unauthenticated access to internal SCIM data. |
-| **Crypto** | Logic flaw in identity checks. | **Informational.** Found a way to mess with identity canister certs. |
+I can't name names. NDAs. But here's the shape of it.
 
----
+- **Banking API.** Auth bypass on a production gateway. Injected a header, got back internal logs with employee usernames and ops data. Confirmed. Out of scope. Still fixed it.
+- **SaaS platform.** Unpatched SAP Open Redirect (CVE‑2020‑26836). Found it. Duplicate. Still felt good.
+- **Auto manufacturer.** Error codes leaked valid vs. invalid state. Informational. That's triage for "real but we're not paying."
+- **Social media.** SCIM metadata endpoint open to the world. Told them. They said P4.
+- **Crypto.** Identity canister cert weirdness. Spent a weekend on it. Got marked spam. Whatever.
 
-### Tools
-*   **OS:** Arch Linux. 
-*   **Web:** Browser Dev tools, Ffuf, Postman, et al.
-*   **Logic:** DeepSeek-V3, Gemini Pro (for heuristic analysis).
-*   **Code:** Python and Bash for quick PoCs.
-
-### Training
-*   **HackTheBox Academy:** Finished the Web Application and JS Deobfuscation tracks.
-*   **Bugcrowd University:** API Hacking.
-*   **Experience:** Three years of digging into broken access control. HTB CTF 2025 flags and experience. 
+I don't have a $10k bounty story. I have a pile of "this shouldn't be public" moments that companies eventually closed. That's what matters.
 
 ---
 
-### Let's Work
-I'm looking for contract pentesting (1099) or security assessment roles. I don't do well in scripted corporate interviews. I do well when you give me a scope and tell me to find a way in. 
+### How I Work
 
-*I follow all NDAs. Target names above are redacted.*
+Dual‑screen Arch. CLI for recon—ffuf, gau, katana, custom bash loops. Browser for poking. LLMs for pattern‑spotting in giant API dumps, never for final judgment.
+
+I write PoCs in Python or Bash. Nothing fancy. Just enough to prove the thing works.
+
+---
+
+### Training & Time Sink
+
+- HTB Academy: Web Attacks, JS Deobfuscation.
+- Bugcrowd University: API Hacking.
+- Three years of poking at auth flows and access control.
+- Some CTF flags. HTB 2025. Nothing legendary.
+
+---
+
+### What I'm Looking For
+
+Contract pentesting. 1099. Assessments. I'm not great at panel interviews. I'm good when you hand me a scope and tell me to find a way in.
+
+*All target details above are redacted per NDA. The bugs were real.*
