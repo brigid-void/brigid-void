@@ -1,4 +1,4 @@
-# Brigid Void
+# Ghost Hermes
 **Vulnerability Researcher (APIs & Web)**
 *Remote, USA* | [Bugcrowd](https://bugcrowd.com/h/Liz_Zelda) | ravenfritz98@gmail.com
 
