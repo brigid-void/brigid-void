@@ -1,6 +1,6 @@
 # Ghost Hermes
 **Vulnerability Researcher (APIs & Web)**
-*Remote, USA* | [Bugcrowd](https://bugcrowd.com/h/Liz_Zelda) | ravenfritz98@gmail.com
+*Remote, USA* | [Bugcrowd](https://bugcrowd.com/h/Liz_Zelda) | ravenfritz98@gmail.com | blacklotusreforged@gmail.com
 
 ---
 
@@ -32,6 +32,24 @@ Dual‑screen Arch. CLI for recon—ffuf, gau, katana, custom bash loops. Browse
 
 I write PoCs in Python or Bash. Nothing fancy. Just enough to prove the thing works.
 
+When a problem requires a custom tool, I don't wait. I spec it, generate the scaffolding with AI assistance, then manually harden every decision point. The goal is always defensible, reproducible output—whether it's a bug report or a forensic exhibit for a courtroom.
+
+---
+
+### Projects
+
+**[adtech-forensics-engine](https://github.com/ghosthermes/adtech-forensics-engine)**  
+*Playwright • Python • AI-assisted development • Manual verification*
+
+Litigation-grade automation for privacy compliance testing and ad-tech forensics. Built in response to a real legal-support requirement—the kind that pays $150+/hr.
+
+- **Hash-verified HAR captures** with UTC-synchronized timestamps.
+- **PII injection probes** that trigger `blur` event listeners used by aggressive tracking scripts.
+- **Consent state monitoring** mapping OneTrust/Optanon initialization against tracker firing times.
+- **Payload deobfuscation** for Base64/JSON-encoded cross-site sync data (Prebid, DFP).
+
+I built this in under 48 hours using LLM-assisted code generation, then validated every output manually against live sites. It’s not my native habitat—I’m a bug hunter, not a forensic analyst—but the result meets the evidentiary bar for CIPA, VPPA, and wiretap-stack litigation. That’s the point: I can take a niche, high-stakes problem I’ve never touched before, leverage AI to compress the learning curve, and deliver a production-ready artifact that holds up under adversarial scrutiny.
+
 ---
 
 ### Training & Time Sink
@@ -45,6 +63,6 @@ I write PoCs in Python or Bash. Nothing fancy. Just enough to prove the thing wo
 
 ### What I'm Looking For
 
-Contract pentesting. 1099. Assessments. I'm not great at panel interviews. I'm good when you hand me a scope and tell me to find a way in.
+Contract pentesting. 1099. Assessments. I'm not great at panel interviews. I'm good when you hand me a scope and tell me to find a way in. I'm also available to build custom test harnesses, forensic capture engines, or compliance-automation tools—especially when the deadline is tight and the budget is right.
 
 *All target details above are redacted per NDA. The bugs were real.*
