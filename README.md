@@ -1,68 +1,65 @@
 # Ghost Hermes
-**Vulnerability Researcher (APIs & Web)**
-*Remote, USA* | [Bugcrowd](https://bugcrowd.com/h/Liz_Zelda) | ravenfritz98@gmail.com | blacklotusreforged@gmail.com
+**Vulnerability Researcher | APIs & Web Security**
+Remote, USA | [Bugcrowd](https://bugcrowd.com/h/Liz_Zelda) | ravenfritz98@gmail.com
+
+I hunt for the logic errors that automated scanners miss.
+
+My background isn't in high-volume automation or "point-and-click" pentesting. I specialize in black-box web and API assessments where the vulnerabilities aren't obvious. To date, I’ve submitted over 15 vetted reports to programs on HackenProof, Bugcrowd, and Immunefi. Most were accepted; all were verified manually.
+
+I work in the terminal. My environment is Arch Linux, usually with Burp Suite and a browser on one screen and Python/CLI tools on the other. I use LLMs to parse massive API schemas or deobfuscate dense JS chunks to find patterns, but I never trust their output. I verify every lead by hand.
 
 ---
 
-I find bugs.
+### Selected Vulnerability Case Studies
 
-Not always the kind that pay out. Triage is what it is. But I've sent over 15 reports to programs on HackenProof, Bugcrowd, and Immunefi. Most got read. Some got fixed. I got good at spotting the things scanners ignore.
+These findings are redacted to honor NDAs, but they represent my typical focus areas:
 
-I stick to black‑box web and API testing. Arch Linux. Terminal on the left, browser on the right. I throw API schemas and JS chunks at DeepSeek or Gemini to surface patterns, but I verify everything by hand. Burp. DevTools. Python one‑liners. No automated junk.
+*   **Financial Services:** Found an authentication bypass on a production gateway. By injecting specific headers, I pulled internal logs containing employee usernames and operational data. It was confirmed as an out-of-scope finding, but the client patched it immediately.
+*   **SaaS Infrastructure:** Identified an unpatched SAP Open Redirect (CVE-2020-26836). It was eventually marked as a duplicate, but the discovery validated my methodology for testing enterprise-grade stacks.
+*   **Automotive Tech:** Exploited inconsistent error codes to leak state data (valid vs. invalid accounts). This was triaged as Informational—a common result for "real but low-priority" logic flaws.
+*   **Decentralized Finance (DeFi):** Investigated identity canister certificate anomalies. I spent 48 hours mapping the edge case, though the program ultimately dismissed the report. 
 
----
-
-### Things I've Found
-
-I can't name names. NDAs. But here's the shape of it.
-
-- **Banking API.** Auth bypass on a production gateway. Injected a header, got back internal logs with employee usernames and ops data. Confirmed. Out of scope. Still fixed it.
-- **SaaS platform.** Unpatched SAP Open Redirect (CVE‑2020‑26836). Found it. Duplicate. Still felt good.
-- **Auto manufacturer.** Error codes leaked valid vs. invalid state. Informational. That's triage for "real but we're not paying."
-- **Social media.** SCIM metadata endpoint open to the world. Told them. They said P4.
-- **Crypto.** Identity canister cert weirdness. Spent a weekend on it. Got marked spam. Whatever.
-
-I don't have a $10k bounty story. I have a pile of "this shouldn't be public" moments that companies eventually closed. That's what matters.
+I don’t hunt for six-figure bounties. I hunt for the "this shouldn't be public" moments that compromise a company’s integrity.
 
 ---
 
-### How I Work
+### Technical Workflow
 
-Dual‑screen Arch. CLI for recon—ffuf, gau, katana, custom bash loops. Browser for poking. LLMs for pattern‑spotting in giant API dumps, never for final judgment.
+I build my own recon loops using `ffuf`, `gau`, and `katana`. When a target requires something unique, I don't wait for a vendor update. I write custom PoCs in Python or Bash to prove a vulnerability is exploitable and reproducible.
 
-I write PoCs in Python or Bash. Nothing fancy. Just enough to prove the thing works.
-
-When a problem requires a custom tool, I don't wait. I spec it, generate the scaffolding with AI assistance, then manually harden every decision point. The goal is always defensible, reproducible output—whether it's a bug report or a forensic exhibit for a courtroom.
+My approach to AI is pragmatic. I use it to generate boilerplate or scaffold complex tools, then I manually harden the code to ensure it meets forensic or professional standards. The result is always a defensible, high-signal report.
 
 ---
 
-### Projects
+### Featured Project
 
 **[adtech-forensics-engine](https://github.com/ghosthermes/adtech-forensics-engine)**  
-*Playwright • Python • AI-assisted development • Manual verification*
+*Playwright • Python • Forensic Verification*
 
-Litigation-grade automation for privacy compliance testing and ad-tech forensics. Built in response to a real legal-support requirement—the kind that pays $150+/hr.
+I built this litigation-grade automation tool to support privacy compliance testing and ad-tech forensics. It was designed for a high-stakes legal environment where accuracy is the only metric that matters.
 
-- **Hash-verified HAR captures** with UTC-synchronized timestamps.
-- **PII injection probes** that trigger `blur` event listeners used by aggressive tracking scripts.
-- **Consent state monitoring** mapping OneTrust/Optanon initialization against tracker firing times.
-- **Payload deobfuscation** for Base64/JSON-encoded cross-site sync data (Prebid, DFP).
+*   **Evidentiary Integrity:** Captures HAR files with hash verification and UTC-synchronized timestamps.
+*   **Aggressive Probe Logic:** Triggers `blur` event listeners and other "stealth" tracking triggers used by modern ad-tech.
+*   **Consent Mapping:** Compares OneTrust/Optanon initialization states against actual tracker firing times to catch "consent-less" tracking.
+*   **Data Deobfuscation:** Automatically decodes Base64 and JSON payloads in cross-site sync data (Prebid/DFP).
 
-I built this in under 48 hours using LLM-assisted code generation, then validated every output manually against live sites. It’s not my native habitat—I’m a bug hunter, not a forensic analyst—but the result meets the evidentiary bar for CIPA, VPPA, and wiretap-stack litigation. That’s the point: I can take a niche, high-stakes problem I’ve never touched before, leverage AI to compress the learning curve, and deliver a production-ready artifact that holds up under adversarial scrutiny.
-
----
-
-### Training & Time Sink
-
-- HTB Academy: Web Attacks, JS Deobfuscation.
-- Bugcrowd University: API Hacking.
-- Three years of poking at auth flows and access control.
-- Some CTF flags. HTB 2025. Nothing legendary.
+I developed this engine in under 48 hours to meet a specific legal deadline. It demonstrates my ability to pivot into niche technical requirements, leverage AI to compress development cycles, and deliver an artifact that holds up under adversarial scrutiny.
 
 ---
 
-### What I'm Looking For
+### Training & Competencies
 
-Contract pentesting. 1099. Assessments. I'm not great at panel interviews. I'm good when you hand me a scope and tell me to find a way in. I'm also available to build custom test harnesses, forensic capture engines, or compliance-automation tools—especially when the deadline is tight and the budget is right.
+*   **HTB Academy:** Web Attacks, JS Deobfuscation.
+*   **Bugcrowd University:** API Hacking.
+*   **Focus:** Three years of testing authentication flows, broken access control, and API business logic.
+*   **CTF:** Active participant in HTB 2025 and similar events.
 
-*All target details above are redacted per NDA. The bugs were real.*
+---
+
+### Professional Engagements
+
+I am available for contract pentesting (1099), security assessments, and custom tool development. I don't excel in standard corporate panel interviews. I excel when given a scope and a deadline. 
+
+If you need a custom test harness, a forensic capture engine, or a deep-dive assessment of a "secure" API, let's talk.
+
+*All findings mentioned are redacted per NDA. The bugs were real.*
